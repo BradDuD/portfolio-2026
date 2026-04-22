@@ -1,0 +1,87 @@
+{
+  "nav": {
+    "home": "Inicio",
+    "about": "Sobre mí",
+    "experience": "Experiencia",
+    "projects": "Proyectos"
+  },
+  "home": {
+    "greeting": "Hola, soy",
+    "name": "Brad Dupre",
+    "role": "Desarrollador de Software",
+    "description": "Construyo experiencias digitales limpias, escalables y con propósito.",
+    "cta": "Ver proyectos"
+  },
+  "about": {
+    "title": "Sobre mí",
+    "bio": "Soy un desarrollador de software apasionado por crear soluciones elegantes a problemas complejos. Me especializo en el desarrollo web moderno con un enfoque en la experiencia del usuario y la calidad del código.",
+    "doing": "¿Qué hago?",
+    "doingText": "Diseño e implemento aplicaciones web full-stack, APIs RESTful y sistemas escalables. Me gusta mantener un código limpio, bien documentado y alineado con las mejores prácticas de la industria.",
+    "techTitle": "Tecnologías"
+  },
+  "experience": {
+    "title": "Experiencia",
+    "present": "Presente",
+    "roles": {
+      "rosario": {
+        "company": "Universidad del Rosario",
+        "role": "Desarrollador",
+        "period": "2025 – Presente",
+        "description": "Desarrollo y mantenimiento de plataformas internas para la universidad. Construcción de interfaces de usuario con React y TypeScript, integración con APIs REST y colaboración directa con los equipos académicos para digitalizar procesos administrativos.",
+        "responsibilities": [
+          "Desarrollo de módulos de gestión académica con React y TypeScript",
+          "Integración con servicios backend en Node.js y bases de datos PostgreSQL",
+          "Participación en code reviews y definición de estándares de código",
+          "Coordinación con stakeholders para levantamiento de requerimientos"
+        ]
+      },
+      "omia": {
+        "company": "OMIA Colombia",
+        "role": "Desarrollador Fullstack Junior",
+        "period": "2024 – 2025",
+        "description": "Desarrollo de soluciones internas como software para gestión de contrataciones y costeo de proyectos, con énfasis en rendimiento y diseño responsive.",
+        "responsibilities": [
+          "Desarrollo de landing pages y sitios corporativos",
+          "Despliegue de aplicaciones en producción mediante Docker y Azure App Services.",
+          "Creación y mantenimiento de Base de Datos MySQL",
+          "Gestión directa con clientes y entrega de proyectos"
+        ]
+      }
+    }
+  },
+  "projects": {
+    "title": "Proyectos",
+    "github": "Código",
+    "demo": "Demo",
+    "items": [
+      {
+        "name": "Project Alpha",
+        "description": "Plataforma de gestión de tareas con autenticación, tableros Kanban y notificaciones en tiempo real.",
+        "tags": ["React", "TypeScript", "Node.js", "PostgreSQL"],
+        "github": "https://github.com",
+        "demo": "https://example.com"
+      },
+      {
+        "name": "DataViz Dashboard",
+        "description": "Dashboard interactivo para visualización de métricas de negocio con gráficas dinámicas y exportación de reportes.",
+        "tags": ["Vue.js", "D3.js", "Python", "FastAPI"],
+        "github": "https://github.com",
+        "demo": null
+      },
+      {
+        "name": "API Gateway",
+        "description": "Microservicio de autenticación y autorización con JWT, rate limiting y logging centralizado.",
+        "tags": ["Node.js", "Express", "Redis", "Docker"],
+        "github": "https://github.com",
+        "demo": null
+      },
+      {
+        "name": "E-Commerce UI",
+        "description": "Interfaz de tienda en línea con catálogo de productos, carrito de compras y pasarela de pagos integrada.",
+        "tags": ["React", "Tailwind", "Stripe", "Next.js"],
+        "github": "https://github.com",
+        "demo": "https://example.com"
+      }
+    ]
+  }
+}

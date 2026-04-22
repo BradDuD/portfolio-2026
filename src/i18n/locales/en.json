@@ -1,0 +1,87 @@
+{
+  "nav": {
+    "home": "Home",
+    "about": "About",
+    "experience": "Experience",
+    "projects": "Projects"
+  },
+  "home": {
+    "greeting": "Hi, I'm",
+    "name": "Your Name",
+    "role": "Software Developer",
+    "description": "I build clean, scalable, and purposeful digital experiences.",
+    "cta": "View projects"
+  },
+  "about": {
+    "title": "About me",
+    "bio": "I'm a software developer passionate about crafting elegant solutions to complex problems. I specialize in modern web development with a focus on user experience and code quality.",
+    "doing": "What do I do?",
+    "doingText": "I design and implement full-stack web applications, RESTful APIs, and scalable systems. I enjoy maintaining clean, well-documented code aligned with industry best practices.",
+    "techTitle": "Technologies"
+  },
+  "experience": {
+    "title": "Experience",
+    "present": "Present",
+    "roles": {
+      "rosario": {
+        "company": "Universidad del Rosario",
+        "role": "Web Developer",
+        "period": "2025 – Present",
+        "description": "Development and maintenance of internal platforms for the university. Building user interfaces with React and TypeScript, integrating REST APIs, and collaborating with academic teams to digitize administrative processes.",
+        "responsibilities": [
+          "Development of academic management modules with React and PHP",
+          "Integration with Node.js backend services and PostgreSQL databases",
+          "Participation in code reviews and definition of coding standards",
+          "Coordination with stakeholders for requirements gathering"
+        ]
+      },
+      "omia": {
+        "company": "OMIA Colombia",
+        "role": "Junior Fullstack Developer",
+        "period": "2023 – 2025",
+        "description": "Web project development for clients across different sectors. From landing pages to full web applications, always with an emphasis on performance and responsive design.",
+        "responsibilities": [
+          "Development of landing pages and corporate websites",
+          "Implementation of online stores with shopping cart functionality",
+          "Performance optimization and technical SEO",
+          "Direct client management and project delivery"
+        ]
+      }
+    }
+  },
+  "projects": {
+    "title": "Projects",
+    "github": "Code",
+    "demo": "Demo",
+    "items": [
+      {
+        "name": "Project Alpha",
+        "description": "Task management platform with authentication, Kanban boards and real-time notifications.",
+        "tags": ["React", "TypeScript", "Node.js", "PostgreSQL"],
+        "github": "https://github.com",
+        "demo": "https://example.com"
+      },
+      {
+        "name": "DataViz Dashboard",
+        "description": "Interactive dashboard for business metrics visualization with dynamic charts and report export.",
+        "tags": ["Vue.js", "D3.js", "Python", "FastAPI"],
+        "github": "https://github.com",
+        "demo": null
+      },
+      {
+        "name": "API Gateway",
+        "description": "Authentication and authorization microservice with JWT, rate limiting and centralized logging.",
+        "tags": ["Node.js", "Express", "Redis", "Docker"],
+        "github": "https://github.com",
+        "demo": null
+      },
+      {
+        "name": "E-Commerce UI",
+        "description": "Online store interface with product catalog, shopping cart and integrated payment gateway.",
+        "tags": ["React", "Tailwind", "Stripe", "Next.js"],
+        "github": "https://github.com",
+        "demo": "https://example.com"
+      }
+    ]
+  }
+}
