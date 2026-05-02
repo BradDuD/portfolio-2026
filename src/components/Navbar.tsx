@@ -64,7 +64,7 @@ export const Navbar = () => {
         {/* Right: icons + lang toggle */}
         <div className="navbar__actions">
           <a
-            href="https://linkedin.com"
+            href="https://www.linkedin.com/in/brad-dupre/"
             target="_blank"
             rel="noreferrer"
             className="navbar__icon"
@@ -73,7 +73,7 @@ export const Navbar = () => {
             <LinkedInIcon />
           </a>
           <a
-            href="https://github.com"
+            href="https://github.com/BradDuD"
             target="_blank"
             rel="noreferrer"
             className="navbar__icon"
@@ -82,7 +82,7 @@ export const Navbar = () => {
             <GitHubIcon />
           </a>
           <a
-            href="mailto:tu@email.com"
+            href="mailto:bephillipduprel@gmail.com"
             className="navbar__icon"
             aria-label="Email"
           >

@@ -8,79 +8,109 @@
   "home": {
     "greeting": "Hola, soy",
     "name": "Brad Dupre",
-    "role": "Desarrollador de Software",
-    "description": "Construyo experiencias digitales limpias, escalables y con propósito.",
+    "role": "Fullstack Developer",
+    "tagline": "Especializado en backend, APIs y automatización",
+    "description": "Construyo aplicaciones web end-to-end que resuelven problemas reales — desde portales con +35K usuarios hasta automatizaciones que reducen procesos de 24 horas a menos de 15 minutos.",
     "cta": "Ver proyectos"
   },
   "about": {
     "title": "Sobre mí",
-    "bio": "Soy un desarrollador de software apasionado por crear soluciones elegantes a problemas complejos. Me especializo en el desarrollo web moderno con un enfoque en la experiencia del usuario y la calidad del código.",
+    "bio": "Soy desarrollador Fullstack con experiencia construyendo soluciones web en producción. Me especializo en backend, desarrollo de APIs y automatización de procesos, priorizando rendimiento, escalabilidad y mantenibilidad.",
     "doing": "¿Qué hago?",
-    "doingText": "Diseño e implemento aplicaciones web full-stack, APIs RESTful y sistemas escalables. Me gusta mantener un código limpio, bien documentado y alineado con las mejores prácticas de la industria.",
+    "doingText": "Diseño y desarrollo aplicaciones completas, desde la interfaz hasta la base de datos y el despliegue en la nube. He trabajado con autenticación empresarial (SSO/LDAP), optimización de procesos de datos a gran escala y automatización de flujos críticos utilizando Python, Docker y Azure.",
     "techTitle": "Tecnologías"
   },
   "experience": {
     "title": "Experiencia",
-    "present": "Presente",
+    "present": "Actualidad",
     "roles": {
       "rosario": {
         "company": "Universidad del Rosario",
-        "role": "Desarrollador",
-        "period": "2025 – Presente",
-        "description": "Desarrollo y mantenimiento de plataformas internas para la universidad. Construcción de interfaces de usuario con React y TypeScript, integración con APIs REST y colaboración directa con los equipos académicos para digitalizar procesos administrativos.",
+        "role": "Desarrollador Web · Analista de Recursos",
+        "period": "Jun 2025 – Actualidad",
+        "description": "Diseño y desarrollo soluciones que permanecen en producción y son utilizadas por miles de usuarios.",
         "responsibilities": [
-          "Desarrollo de módulos de gestión académica con React y TypeScript",
-          "Integración con servicios backend en Node.js y bases de datos PostgreSQL",
-          "Participación en code reviews y definición de estándares de código",
-          "Coordinación con stakeholders para levantamiento de requerimientos"
+          "Desarrollo del Portal de Servicios al Investigador con SSO (LDAP + JWT) y arquitectura API REST — +35.000 visitas en 8 meses, +100 usuarios diarios",
+          "Automatización del registro de DOIs con Python y Bash, eliminando procesos manuales",
+          "Optimización de reporte crítico con +50.000 registros: reducción de 24h a <15 min (+80%)",
+          "Mejoras de rendimiento y SEO técnico en plataformas con React, PHP y Python"
         ]
       },
       "omia": {
-        "company": "OMIA Colombia",
+        "company": "OMIA Colombia S.A.S",
         "role": "Desarrollador Fullstack Junior",
-        "period": "2024 – 2025",
-        "description": "Desarrollo de soluciones internas como software para gestión de contrataciones y costeo de proyectos, con énfasis en rendimiento y diseño responsive.",
+        "period": "Jun 2024 – Abr 2025",
+        "description": "Lideré el desarrollo de una plataforma que reemplazó procesos manuales en Excel por un sistema centralizado, auditable y desplegado en la nube.",
         "responsibilities": [
-          "Desarrollo de landing pages y sitios corporativos",
-          "Despliegue de aplicaciones en producción mediante Docker y Azure App Services.",
-          "Creación y mantenimiento de Base de Datos MySQL",
-          "Gestión directa con clientes y entrega de proyectos"
+          "Arquitectura y desarrollo de RRCBuilder (Flask + MySQL + Azure) para gestión de contratación y costeo",
+          "Implementación de autenticación SSO y despliegue en producción con Docker y CI/CD en Azure",
+          "Desarrollo de soluciones internas con Django y Nginx",
+          "Automatización de procesos empresariales con Microsoft Power Platform"
+        ]
+      },
+      "2de2": {
+        "company": "2DE2 Consultoría",
+        "role": "Desarrollador Junior",
+        "period": "Ene 2023 – Sep 2023",
+        "description": "Experiencia en entornos empresariales trabajando con sistemas SAP en producción.",
+        "responsibilities": [
+          "Desarrollo y mantenimiento de aplicaciones sobre SAP S/4HANA y SAP R/3",
+          "Implementación de formularios y mejoras funcionales en SAP ABAP",
+          "Soporte técnico y documentación de sistemas internos"
         ]
       }
     }
   },
   "projects": {
     "title": "Proyectos",
+    "featured": {
+      "name": "Portal de Servicios al Investigador",
+      "description": "Plataforma en producción utilizada por +35K usuarios. Implementa autenticación SSO (LDAP + JWT), arquitectura basada en APIs REST y optimización de procesos institucionales críticos.",
+      "impact": [
+        "+35K usuarios",
+        "SSO empresarial (LDAP + JWT)",
+        "Procesos optimizados de 24h a <15 min"
+      ],
+      "tech": ["React", "PHP", "Python", "REST API"],
+      "note": "Proyecto desarrollado en entorno institucional (código no público)"
+    },
     "github": "Código",
     "demo": "Demo",
     "items": [
       {
-        "name": "Project Alpha",
-        "description": "Plataforma de gestión de tareas con autenticación, tableros Kanban y notificaciones en tiempo real.",
-        "tags": ["React", "TypeScript", "Node.js", "PostgreSQL"],
-        "github": "https://github.com",
-        "demo": "https://example.com"
-      },
-      {
-        "name": "DataViz Dashboard",
-        "description": "Dashboard interactivo para visualización de métricas de negocio con gráficas dinámicas y exportación de reportes.",
-        "tags": ["Vue.js", "D3.js", "Python", "FastAPI"],
-        "github": "https://github.com",
+        "name": "Exotipet",
+        "description": "Aplicación fullstack con backend en Flask y base de datos MySQL. Implementa gestión estructurada de datos, renderizado dinámico y arquitectura orientada a aplicaciones reales.",
+        "tags": ["Python", "Flask", "MySQL"],
+        "github": "https://github.com/BradDuD/i-d-i_exotipet",
         "demo": null
       },
       {
-        "name": "API Gateway",
-        "description": "Microservicio de autenticación y autorización con JWT, rate limiting y logging centralizado.",
-        "tags": ["Node.js", "Express", "Redis", "Docker"],
-        "github": "https://github.com",
+        "name": "Movie App",
+        "description": "Aplicación frontend en React que consume APIs externas, con búsqueda dinámica, manejo de estado y persistencia de datos del usuario.",
+        "tags": ["React", "Vite", "REST API", "TMDB"],
+        "github": "https://github.com/BradDuD/react-movies",
+        "demo": "https://react-movies-codtwpcdt-brad-dupres-projects.vercel.app/"
+      },
+      {
+        "name": "Portfolio v1",
+        "description": "Primera versión de mi portafolio, enfocada en desarrollo frontend con React y TypeScript.",
+        "tags": ["React", "TypeScript", "Vite", "Vercel"],
+        "github": "https://github.com/BradDuD/portfolio",
+        "demo": "https://portfolio-livid-tau-20.vercel.app/"
+      },
+      {
+        "name": "App Mobile",
+        "description": "Aplicación Android conectada a backend en PHP con base de datos SQL, implementando comunicación cliente-servidor y persistencia remota.",
+        "tags": ["Java", "Kotlin", "PHP", "SQL"],
+        "github": "https://github.com/BradDuD/app_mobile",
         "demo": null
       },
       {
-        "name": "E-Commerce UI",
-        "description": "Interfaz de tienda en línea con catálogo de productos, carrito de compras y pasarela de pagos integrada.",
-        "tags": ["React", "Tailwind", "Stripe", "Next.js"],
-        "github": "https://github.com",
-        "demo": "https://example.com"
+        "name": "MVC PHP — CRUD",
+        "description": "Aplicación CRUD desarrollada desde cero en PHP siguiendo el patrón MVC, con separación de responsabilidades y manejo estructurado de rutas y lógica de negocio.",
+        "tags": ["PHP", "MySQL", "MVC"],
+        "github": "https://github.com/BradDuD/MVC-PHP",
+        "demo": null
       }
     ]
   }

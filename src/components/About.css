@@ -75,8 +75,24 @@
 }
 
 .about__tech-icon {
-  font-size: 0.9rem;
-  line-height: 1;
+  width: 30px;
+  height: 30px;
+  object-fit: contain;
+  flex-shrink: 0;
+  /* Suaviza SVGs que tengan fondo blanco en tema oscuro */
+  filter: drop-shadow(0 0 0 transparent);
+  transition: transform var(--transition), filter var(--transition);
+}
+
+.about__tech-tag:hover .about__tech-icon {
+  transform: scale(1.15);
+}
+
+@media (max-width: 480px) {
+  .about__tech-icon {
+    width: 24px;
+    height: 24px;
+  }
 }
 
 /* ── Responsive ── */

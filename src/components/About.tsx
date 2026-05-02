@@ -2,18 +2,23 @@ import { useTranslation } from 'react-i18next';
 import './About.css';
 
 const TECHNOLOGIES = [
-  { name: 'TypeScript', icon: '🔷' },
-  { name: 'React', icon: '⚛️' },
-  { name: 'Node.js', icon: '🟢' },
-  { name: 'Python', icon: '🐍' },
-  { name: 'PostgreSQL', icon: '🐘' },
-  { name: 'Docker', icon: '🐳' },
-  { name: 'Git', icon: '🔀' },
-  { name: 'REST APIs', icon: '🔌' },
-  { name: 'Linux', icon: '🐧' },
-  { name: 'Vite', icon: '⚡' },
-  { name: 'CSS / SCSS', icon: '🎨' },
-  { name: 'Redis', icon: '🔴' },
+  { name: 'JavaScript', svg: 'javascript.svg' },
+  { name: 'TypeScript', svg: 'typescript.svg' },
+  { name: 'React',      svg: 'react.svg' },
+  { name: 'Python',     svg: 'python.svg' },
+  { name: 'Flask',      svg: 'flask.svg' },
+  { name: 'Django',     svg: 'django.svg' },
+  { name: 'PHP',        svg: 'php.svg' },
+  { name: 'Java',       svg: 'java.svg' },
+  { name: 'PostgreSQL', svg: 'postgresql.svg' },
+  { name: 'MySQL',      svg: 'mysql.svg' },
+  { name: 'MongoDB',    svg: 'mongodb.svg' },
+  { name: 'REST APIs',  svg: 'restapi.svg' },
+  { name: 'Docker',     svg: 'docker.svg' },
+  { name: 'Azure',      svg: 'azure.svg' },
+  { name: 'Git',        svg: 'git.svg' },
+  { name: 'Power BI',   svg: 'powerbi.svg' },
+          // https://uxwing.com/ -> THANKSSS
 ];
 
 export const About = () => {
@@ -53,7 +58,14 @@ export const About = () => {
             <div className="about__tech-grid">
               {TECHNOLOGIES.map((tech) => (
                 <div key={tech.name} className="about__tech-tag">
-                  <span className="about__tech-icon">{tech.icon}</span>
+                  <img
+                    src={`/icons/${tech.svg}`}
+                    alt={tech.name}
+                    className="about__tech-icon"
+                    width={30}
+                    height={30}
+                    loading="lazy"
+                  />
                   <span>{tech.name}</span>
                 </div>
               ))}

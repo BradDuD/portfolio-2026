@@ -15,8 +15,10 @@ export const Footer = () => {
         <p className="footer__text">
           {label}{' '}
           <span className="footer__heart" aria-label="love">♥</span>
-          {' '}— {year}
+          {' '}
+          © Brad ;)  · {year} 
         </p>
+
         <p className="footer__code">
           <span className="footer__bracket">&lt;/&gt;</span>
         </p>

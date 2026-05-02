@@ -7,16 +7,17 @@
   },
   "home": {
     "greeting": "Hi, I'm",
-    "name": "Your Name",
-    "role": "Software Developer",
-    "description": "I build clean, scalable, and purposeful digital experiences.",
+    "name": "Brad Dupre",
+    "role": "Fullstack Developer",
+    "tagline": "Backend-focused | APIs | Automation",
+    "description": "I build web applications that solve real problems — from platforms serving 35K+ users to automations that reduce 24-hour processes to under 15 minutes.",
     "cta": "View projects"
   },
   "about": {
     "title": "About me",
-    "bio": "I'm a software developer passionate about crafting elegant solutions to complex problems. I specialize in modern web development with a focus on user experience and code quality.",
-    "doing": "What do I do?",
-    "doingText": "I design and implement full-stack web applications, RESTful APIs, and scalable systems. I enjoy maintaining clean, well-documented code aligned with industry best practices.",
+    "bio": "Fullstack Developer with 2+ years of experience building production-grade web applications. I specialize in backend development, API design, and process automation, with a focus on performance, scalability, and maintainability.",
+    "doing": "What I do",
+    "doingText": "I design and develop full-stack applications end-to-end, from frontend interfaces to backend systems and cloud deployment. My experience includes enterprise authentication (SSO/LDAP), large-scale data processing, and automation of critical workflows using Python, Docker, and Azure.",
     "techTitle": "Technologies"
   },
   "experience": {
@@ -25,62 +26,91 @@
     "roles": {
       "rosario": {
         "company": "Universidad del Rosario",
-        "role": "Web Developer",
-        "period": "2025 – Present",
-        "description": "Development and maintenance of internal platforms for the university. Building user interfaces with React and TypeScript, integrating REST APIs, and collaborating with academic teams to digitize administrative processes.",
+        "role": "Web Developer · Information Resources Analyst",
+        "period": "Jun 2025 – Present",
+        "description": "Designing and developing production systems used by thousands of users.",
         "responsibilities": [
-          "Development of academic management modules with React and PHP",
-          "Integration with Node.js backend services and PostgreSQL databases",
-          "Participation in code reviews and definition of coding standards",
-          "Coordination with stakeholders for requirements gathering"
+          "Developed the Research Services Portal with SSO (LDAP + JWT) and REST API architecture — 35K+ visits in 8 months, 100+ daily users",
+          "Automated DOI registration using Python and Bash, eliminating manual workflows",
+          "Optimized a reporting system handling 50K+ records: reduced execution time from 24h to <15 min (80%+ improvement)",
+          "Improved performance and technical SEO across platforms built with React, PHP, and Python"
         ]
       },
       "omia": {
-        "company": "OMIA Colombia",
-        "role": "Junior Fullstack Developer",
-        "period": "2023 – 2025",
-        "description": "Web project development for clients across different sectors. From landing pages to full web applications, always with an emphasis on performance and responsive design.",
+        "company": "OMIA Colombia S.A.S",
+        "role": "Fullstack Developer",
+        "period": "Jun 2024 – Apr 2025",
+        "description": "Led the development of a platform that replaced Excel-based workflows with a centralized, cloud-based system.",
         "responsibilities": [
-          "Development of landing pages and corporate websites",
-          "Implementation of online stores with shopping cart functionality",
-          "Performance optimization and technical SEO",
-          "Direct client management and project delivery"
+          "Architected and developed RRCBuilder (Flask + MySQL + Azure) for hiring and cost management",
+          "Implemented SSO authentication and deployed to production using Docker and CI/CD pipelines in Azure",
+          "Built internal tools with Django and Nginx for operational workflows",
+          "Automated business processes using Microsoft Power Platform"
+        ]
+      },
+      "2de2": {
+        "company": "2DE2 Consultoría",
+        "role": "Junior Developer",
+        "period": "Jan 2023 – Sep 2023",
+        "description": "Worked in enterprise environments with SAP systems in production.",
+        "responsibilities": [
+          "Developed and maintained enterprise applications on SAP S/4HANA and SAP R/3",
+          "Implemented forms and functional improvements using SAP ABAP",
+          "Provided technical support and system documentation"
         ]
       }
     }
   },
   "projects": {
     "title": "Projects",
+    "featured": {
+      "name": "Research Services Portal",
+      "description": "Production platform used by 35K+ users. Implements SSO authentication (LDAP + JWT), REST API architecture, and optimized institutional workflows.",
+      "impact": [
+        "35K+ users",
+        "Enterprise SSO (LDAP + JWT)",
+        "Processes reduced from 24h to <15 min"
+      ],
+      "tech": ["React", "PHP", "Python", "REST API"],
+      "note": "Developed in an institutional environment (code not publicly available)"
+    },
     "github": "Code",
     "demo": "Demo",
     "items": [
       {
-        "name": "Project Alpha",
-        "description": "Task management platform with authentication, Kanban boards and real-time notifications.",
-        "tags": ["React", "TypeScript", "Node.js", "PostgreSQL"],
-        "github": "https://github.com",
-        "demo": "https://example.com"
-      },
-      {
-        "name": "DataViz Dashboard",
-        "description": "Interactive dashboard for business metrics visualization with dynamic charts and report export.",
-        "tags": ["Vue.js", "D3.js", "Python", "FastAPI"],
-        "github": "https://github.com",
+        "name": "Exotipet",
+        "description": "Fullstack application with Flask backend and MySQL database. Implements structured data handling, dynamic rendering, and architecture aligned with real-world applications.",
+        "tags": ["Python", "Flask", "MySQL"],
+        "github": "https://github.com/BradDuD/i-d-i_exotipet",
         "demo": null
       },
       {
-        "name": "API Gateway",
-        "description": "Authentication and authorization microservice with JWT, rate limiting and centralized logging.",
-        "tags": ["Node.js", "Express", "Redis", "Docker"],
-        "github": "https://github.com",
+        "name": "Movie App",
+        "description": "Frontend application built with React consuming external APIs, featuring dynamic search, state management, and persistent user data handling.",
+        "tags": ["React", "Vite", "REST API", "TMDB"],
+        "github": "https://github.com/BradDuD/react-movies",
+        "demo": "https://react-movies-codtwpcdt-brad-dupres-projects.vercel.app/"
+      },
+      {
+        "name": "Portfolio v1",
+        "description": "First version of my portfolio focused on frontend development with React and TypeScript.",
+        "tags": ["React", "TypeScript", "Vite", "Vercel"],
+        "github": "https://github.com/BradDuD/portfolio",
+        "demo": "https://portfolio-livid-tau-20.vercel.app/"
+      },
+      {
+        "name": "Mobile App",
+        "description": "Android application integrated with a PHP backend and SQL database, implementing client-server communication and remote data persistence.",
+        "tags": ["Java", "Kotlin", "PHP", "SQL"],
+        "github": "https://github.com/BradDuD/app_mobile",
         "demo": null
       },
       {
-        "name": "E-Commerce UI",
-        "description": "Online store interface with product catalog, shopping cart and integrated payment gateway.",
-        "tags": ["React", "Tailwind", "Stripe", "Next.js"],
-        "github": "https://github.com",
-        "demo": "https://example.com"
+        "name": "MVC PHP — CRUD",
+        "description": "CRUD application built from scratch using the MVC pattern in vanilla PHP, with clear separation of concerns, custom routing, and structured business logic.",
+        "tags": ["PHP", "MySQL", "MVC"],
+        "github": "https://github.com/BradDuD/MVC-PHP",
+        "demo": null
       }
     ]
   }
