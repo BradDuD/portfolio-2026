@@ -191,4 +191,12 @@
   .navbar__link::after {
     display: none;
   }
+
+  .navbar__container{
+    width: fit-content;
+  }
+  
+  .navbar__actions{
+    gap: 2.25rem;
+  }
 }
